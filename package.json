@@ -1,0 +1,21 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "Lifetime QR Code Generator with Local Database",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["qr-code", "generator", "sqlite"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "sql.js": "^1.8.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  }
+}
